@@ -1,0 +1,17 @@
+number-system-converter/
+├── number-system-converter.php       # Main plugin file
+├── admin/
+│   ├── admin-menu.php
+│   └── settings-page.php
+├── includes/
+│   ├── converter-ui.php              # UI rendered via shortcode
+│   ├── functions.php                 # Logic for conversions
+│   └── update-checker.php           # Auto update mechanism
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── converter.js
+│   └── images/
+│       └── visuals.svg               # Abstract SVG for decoration
+└── uninstall.php
