@@ -2,7 +2,7 @@
 // includes/update-checker.php
 
 function nsc_check_for_updates() {
-    $remote_json_url = 'https://raw.githubusercontent.com/ajayraikvar/number-system-converter/92e51effc9b59688bb5b5dc004646f0a27f7e797/nsc-update.json'; // Replace with actual URL
+    $remote_json_url = 'https://raw.githubusercontent.com/ajayraikvar/number-system-converter/main/nsc-update.json'; // Replace with actual URL
     $current_version = '1.0.0'; // Current plugin version
 
     // Fetch remote version info
