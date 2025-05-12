@@ -17,6 +17,8 @@ include_once NSC_PLUGIN_DIR . 'admin/admin-menu.php';
 include_once NSC_PLUGIN_DIR . 'includes/converter-ui.php';
 include_once NSC_PLUGIN_DIR . 'includes/functions.php';
 include_once NSC_PLUGIN_DIR . 'includes/update-checker.php';
+require_once plugin_dir_path(__FILE__) . 'includes/update-checker.php';
+
 
 // Enqueue styles and scripts
 function nsc_enqueue_assets() {
